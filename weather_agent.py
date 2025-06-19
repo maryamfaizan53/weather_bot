@@ -324,20 +324,20 @@ class WeatherAgent:
             "preferences": self.state.user_preferences
         }
 
-# # Example usage
-# if __name__ == "__main__":
-#     # Create the weather agent
-#     weather_agent = WeatherAgent()
+# Example usage
+if __name__ == "__main__":
+    # Create the weather agent
+    weather_agent = WeatherAgent()
     
-#     # Example of saving a location
-#     weather_agent.save_location("New York", {
-#         "lat": 40.7128,
-#         "lon": -74.0060,
-#         "timezone": "America/New_York"
-#     })
+    # Example of saving a location
+    weather_agent.save_location("New York", {
+        "lat": 40.7128,
+        "lon": -74.0060,
+        "timezone": "America/New_York"
+    })
     
-#     # Example of updating preferences
-#     weather_agent.update_preferences({
-#         "units": "metric",
-#         "notifications": True
-#     }) 
+    # Example of updating preferences
+    weather_agent.update_preferences({
+        "units": "metric",
+        "notifications": True
+    }) 
